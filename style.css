@@ -27,6 +27,24 @@ body {
     gap: 10px;
     padding:25px;
 }
+.operation-btn {
+    background-color: hsl(34, 100%, 50%);
+}
+.operation-btn:hover {
+    background-color: hsl(34, 100%, 60%);
+}
+.operation-btn:active {
+    background-color: hsl(34, 100%, 80%);
+}
+#c-button {
+    background-color: hsl(0,0%,10%);
+}
+#c-button:hover {
+    background-color: hsl(0,0%,20%);
+}
+#c-button:active {
+    background-color: hsl(0,0%,70%);
+}
 button {
     width: 100px;
     height: 100px;
