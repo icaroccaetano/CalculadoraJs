@@ -1,8 +1,8 @@
 const display = document.getElementById("display");
 
-function appendtoDisplay (number)
+function appendtoDisplay (input)
 {
-    display.value += number;
+    display.value += input;
 }
 
 function calculate ()
